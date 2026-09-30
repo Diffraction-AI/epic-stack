@@ -148,8 +148,8 @@ export default function LoginPage({ actionData }: Route.ComponentProps) {
 								/>
 								<div>
 									<Link
-										to="/forgot-password"
-										className="text-body-xs font-semibold"
+										to="/forgot-passwords"
+										className="text-body-xs font-semibold underline-offset-4 hover:underline"
 									>
 										Forgot password?
 									</Link>
